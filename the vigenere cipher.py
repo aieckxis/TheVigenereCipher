@@ -12,7 +12,7 @@ cipher_text = ''.join(chr((ord(letter) - ord('A') + keyword_value[index % len(ke
 # Process the script
 import time
 for i in range(1, 101):
-    print(f"\rProcessing... {i}%", end='', flush=True)
+    print(f"\r\033[31mProcessing... {i}%\033[0m", end='', flush=True)
     time.sleep(0.03)
 # Print the resulting ciphertext.
-print("\nCiphertext:", cipher_text)
+print("\nCiphertext:\033[34m", cipher_text, "\033[0m")
