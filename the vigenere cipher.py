@@ -15,3 +15,4 @@ for i in range(1, 101):
     print(f"\rProcessing... {i}%", end='', flush=True)
     time.sleep(0.03)
 # Print the resulting ciphertext.
+print("\nCiphertext:", cipher_text)
