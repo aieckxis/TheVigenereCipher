@@ -6,5 +6,6 @@
 plain_text = input("Enter the plaintext message:")
 keyword = input("Enter the keyword:")
 # Convert the keyword to corresponding letter values 0-25.
+keyword_value = [ord(letter) - ord('A') for letter in keyword]
 # Apply the Vigenère cipher to generate the ciphertext.
 # Print the resulting ciphertext.
