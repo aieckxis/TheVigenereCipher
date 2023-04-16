@@ -9,4 +9,9 @@ keyword = input("Enter the keyword:")
 keyword_value = [ord(letter) - ord('A') for letter in keyword]
 # Apply the Vigenère cipher to generate the ciphertext.
 cipher_text = ''.join(chr((ord(letter) - ord('A') + keyword_value[index % len(keyword)]) % 26 + ord('A')) for index, letter in enumerate(plain_text))
+# Process the script
+import time
+for i in range(1, 101):
+    print(f"\rProcessing... {i}%", end='', flush=True)
+    time.sleep(0.03)
 # Print the resulting ciphertext.
