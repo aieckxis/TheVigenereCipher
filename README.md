@@ -5,3 +5,5 @@ The code has been updated with changes to the code structure, input validation, 
 The script has also been Git version controlled, with numerous commits including helpful notes during the development process. This makes it simple to monitor changes and advancements over time.
 # Conclusion
 This Vigenère Cipher script has been updated and improved in order to produce better results overall. Additionally, the usage of Git has improved the tracking and management of the code development process.
+# Example
+![341044806_776548440409134_6828560003199945812_n](https://user-images.githubusercontent.com/129574374/233087448-a969a1a3-c1f1-4685-a0b2-f85233312304.png)
